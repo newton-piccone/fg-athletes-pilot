@@ -818,13 +818,13 @@
         </p>
         <div class="form-card">
           <!--
-            TO ACTIVATE THIS FORM:
-            1. Go to https://formspree.io and create a free account
-            2. Create a new form and copy your form ID (looks like: xyzabc12)
-            3. Replace the action URL below with: https://formspree.io/f/YOUR_FORM_ID
-            Alternatively, change action="mailto:your@email.com" for a basic mailto fallback.
+            Submissions go to Formspree form mykaabww. The script at the bottom of the
+            page posts via AJAX (Accept: application/json) and shows the inline success
+            message; it falls back to a normal POST if the AJAX request fails.
           -->
-          <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <form id="contact-form" action="https://formspree.io/f/mykaabww" method="POST">
+            <!-- Subject line on the Formspree notification email -->
+            <input type="hidden" name="_subject" value="New student-athlete pilot signup" />
             <div class="form-row">
               <div class="form-group">
                 <label for="first">First name</label>
