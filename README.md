@@ -1,6 +1,6 @@
-# Full Genomes — Student-Athlete Pilot (Landing Page)
+# Full Genomes — Athlete Pilot (Landing Page)
 
-Early-access landing page for the Full Genomes nutrigenomics pilot for student athletes.
+Early-access landing page for the Full Genomes nutrigenomics pilot for athletes.
 
 - **`index.html`** — the entire site (single static page, no build step)
 - **`screenshots/`** — real product screenshots used in the phone mockups
